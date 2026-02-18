@@ -1,6 +1,6 @@
 ---
-project_name: workspace
-updated_at: 2026-02-18T02:07:27.849511+00:00
+project_name: leet-info-graph-gpt-5.1-codex-mini-v7
+updated_at: 2026-02-18T03:50:52.249133+00:00
 status: in_progress
 ---
 
@@ -351,61 +351,61 @@ The plan store is the source of truth for planning and execution.
 
 ## Requirements
 
-- [ ] Product name (working):** Research Infographic Studio
-- [ ] an **AI-generated infographic** (visual summary),
-- [ ] an **explanatory article** (structured narrative),
-- [ ] supporting sources** (citations with links/metadata).
+- [x] Product name (working):** Research Infographic Studio
+- [x] an **AI-generated infographic** (visual summary),
+- [x] an **explanatory article** (structured narrative),
+- [x] supporting sources** (citations with links/metadata).
 - [x] Reduce the time to go from “question” → “shareable, cited infographic + article”.
 - [x] Provide trustworthy, traceable outputs (citations, confidence, provenance).
-- [ ] Make outputs easy to revisit, refine, and export.
+- [x] Make outputs easy to revisit, refine, and export.
 - [x] Activation:** ≥ 40% of signed-in users generate at least 1 research result.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
-- [ ] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+- [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 - [x] Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
