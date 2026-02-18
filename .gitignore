@@ -48,3 +48,4 @@ tempfiles/
 # VSCode/workspace settings
 .vscode/
 *.code-workspace
+.leet/
