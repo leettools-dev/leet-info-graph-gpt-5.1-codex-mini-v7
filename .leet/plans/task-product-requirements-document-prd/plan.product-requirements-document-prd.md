@@ -2,7 +2,7 @@
 task_name: product-requirements-document-prd
 status: pending
 created_at: '2026-02-18T00:34:42Z'
-updated_at: '2026-02-18T00:55:11Z'
+updated_at: '2026-02-18T00:55:36Z'
 source_task: task.md
 source_hash: 05a6e6bb565936e3d609521a8e69eaa244f1af2e8a64635c58f95361663d8cbc
 ---
@@ -428,5 +428,9 @@ Run the program using docker-runner tool, check logs to make sure all components
 Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 
 ### 20. Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+
+Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
+
+### 21. Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
 
 Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
