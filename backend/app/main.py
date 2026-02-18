@@ -1,12 +1,16 @@
 from fastapi import FastAPI
 
 from .article_service import ArticleGenerator
+from .activation import action_metrics
 from .composite import ResearchSnapshot
+from .history import ResearchHistory
 from .render import render_spec_to_png
 from .sources import sample_sources
 
 
 app = FastAPI()
+
+history = ResearchHistory()
 
 
 @app.get("/health")
@@ -24,11 +28,13 @@ def example_article(prompt: str):
             "https://example.com/source-3",
         ],
     )
+    action_metrics.register_prompt("example-user")
     return example
 
 
 @app.post("/research/snapshot")
-def research_snapshot(prompt: str):
+def research_snapshot(prompt: str, user_id: str):
+    action_metrics.register_prompt(user_id)
     sources = sample_sources(prompt)
     article = ArticleGenerator.create_example(prompt, sources=[source.source.url for source in sources])
     infographic_spec = {
@@ -60,7 +66,20 @@ def research_snapshot(prompt: str):
         confidence_score=0.83,
         ai_generated_label=True,
     )
+    history.add(prompt, snapshot)
     return {
         "snapshot": snapshot,
         "infographic_png": png_bytes.hex(),
     }
+
+
+@app.post("/activation/register_signin")
+def register_signin(user_id: str):
+    action_metrics.register_sign_in(user_id)
+    return {"status": "signed_in"}
+
+
+@app.get("/activation/report")
+def activation_report():
+    report = action_metrics.report()
+    return report
