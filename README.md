@@ -16,7 +16,7 @@ Build a full-stack web application where users sign in with Google, submit resea
 
 ## Features
 
-- Initialized project infrastructure with quick start guidance, start/stop scripts, logging, PID tracking, and Docker scaffolding. (dev#feature#bootstrap-infrastructure)
+- Added FastAPI backend scaffolding, infographic spec models, and an inline PNG renderer (dev#feature#bootstrap-infrastructure).
 
 ## Getting Started
 
