@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field, HttpUrl
 class ArticleSection(BaseModel):
     title: str
     content: str
-    citations: List[int] = Field(default_factory=list)
+    citation_ids: List[int] = Field(default_factory=list)
 
 
 class Article(BaseModel):
@@ -19,4 +19,5 @@ class Article(BaseModel):
     implications: ArticleSection
     limitations: ArticleSection
     sources: List[HttpUrl]
+    source_ids: List[int]
     confidence_notes: str

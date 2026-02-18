@@ -11,22 +11,22 @@ class ArticleGenerator:
         overview = ArticleSection(
             title="Overview",
             content=f"This article provides a structured overview of: {prompt}",
-            citations=[1],
+            citation_ids=[1],
         )
         detailed_explanation = ArticleSection(
             title="Detailed Explanation",
             content="Detailed insights derived from the fetched sources.",
-            citations=[1, 2],
+            citation_ids=[1, 2],
         )
         implications = ArticleSection(
             title="Implications / Applications",
             content="Key implications that stem from this research summary.",
-            citations=[2],
+            citation_ids=[2],
         )
         limitations = ArticleSection(
             title="Limitations / Uncertainties",
             content="Known limitations include sourcing freshness and model assumptions.",
-            citations=[2, 3],
+            citation_ids=[2, 3],
         )
         return Article(
             prompt=prompt,
@@ -41,5 +41,6 @@ class ArticleGenerator:
             implications=implications,
             limitations=limitations,
             sources=[HttpUrl(source, scheme="https") for source in sources],
+            source_ids=list(range(1, len(sources) + 1)),
             confidence_notes="Model confidence is moderate; rely on cited sources.",
         )
