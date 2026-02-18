@@ -14,3 +14,5 @@ class ResearchSnapshot(BaseModel):
     article: Article
     infographic: InfographicSpec
     sources: List[SourceSnapshot]
+    confidence_score: float
+    ai_generated_label: bool

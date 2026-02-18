@@ -45,10 +45,22 @@ def research_snapshot(prompt: str):
         ],
     }
     png_bytes = render_spec_to_png(infographic_spec)
+    snapshot = ResearchSnapshot(
+        prompt=prompt,
+        generated_at=datetime.utcnow(),
+        article=article,
+        infographic=InfographicSpec(
+            title=infographic_spec["title"],
+            generated_at=datetime.fromisoformat(infographic_spec["generated_at"]),
+            infographic_type=infographic_spec["infographic_type"],
+            citations=[Citation(**citation) for citation in infographic_spec["citations"]],
+            layout_blocks=[LayoutBlock(**block) for block in infographic_spec["layout_blocks"]],
+        ),
+        sources=sources,
+        confidence_score=0.83,
+        ai_generated_label=True,
+    )
     return {
-        "prompt": prompt,
-        "article": article,
-        "infographic": infographic_spec,
-        "sources": sources,
+        "snapshot": snapshot,
         "infographic_png": png_bytes.hex(),
     }
