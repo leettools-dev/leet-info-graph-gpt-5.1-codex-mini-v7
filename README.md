@@ -16,7 +16,7 @@ Build a full-stack web application where users sign in with Google, submit resea
 
 ## Features
 
-- Added FastAPI backend scaffolding, infographic spec models, and an inline PNG renderer (dev#feature#bootstrap-infrastructure).
+- Added FastAPI backend scaffolding, infographic spec models, inline PNG renderer, and article generation flow with sample API responses.
 
 ## Getting Started
 
@@ -36,6 +36,9 @@ Build a full-stack web application where users sign in with Google, submit resea
 ### Usage
 
 ```bash
+# TODO: add usage examples once CLI and services support real workflows.
+```
+
 # TODO: add usage examples once CLI and services support real workflows.
 ```
 
