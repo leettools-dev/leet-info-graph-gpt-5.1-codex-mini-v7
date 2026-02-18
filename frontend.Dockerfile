@@ -1,5 +1,4 @@
-FROM node:20-slim
+FROM python:3.12-slim
 WORKDIR /app
-COPY package.json package-lock.json ./
-RUN npm install
+COPY . .
 CMD ["python", "-m", "http.server", "3000"]

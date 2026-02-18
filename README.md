@@ -16,7 +16,7 @@ Build a full-stack web application where users sign in with Google, submit resea
 
 ## Features
 
-- Added backend services for source metadata, citation tracking, article generation, infographic rendering, activation metrics, and history tracking with quick_start instructions for running the stack.
+- Added backend services for source metadata, article generation, and infographic rendering with distributed metrics instrumentation and quick start documentation.
 
 ## Getting Started
 
