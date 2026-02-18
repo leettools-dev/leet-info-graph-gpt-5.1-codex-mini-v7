@@ -16,23 +16,29 @@ Build a full-stack web application where users sign in with Google, submit resea
 
 ## Features
 
-*Features will be documented here as they are implemented.*
+- Initialized project infrastructure with quick start guidance, start/stop scripts, logging, PID tracking, and Docker scaffolding. (dev#feature#bootstrap-infrastructure)
 
 ## Getting Started
 
 ### Prerequisites
 
-*Prerequisites will be documented here.*
+*Required prerequisites will be finalized after feature scaffolding is in place.*
 
 ### Installation
 
 ```bash
+# TODO: describe real installation steps once backend/frontend frameworks exist.
+```
+
 # Installation instructions will be added
 ```
 
 ### Usage
 
 ```bash
+# TODO: add usage examples once CLI and services support real workflows.
+```
+
 # Usage examples will be added
 ```
 
@@ -43,6 +49,9 @@ See `.leet/plans/` for the current development status.
 ## Testing
 
 ```bash
+# TODO: add testing instructions after tests exist.
+```
+
 # Test instructions will be added
 ```
 
