@@ -16,7 +16,7 @@ Build a full-stack web application where users sign in with Google, submit resea
 
 ## Features
 
-- Added FastAPI backend scaffolding, infographic spec models, inline PNG renderer, and article generation flow with sample API responses.
+- Added backend services for source metadata and citation tracking alongside the existing article and infographic scaffolding.
 
 ## Getting Started
 
