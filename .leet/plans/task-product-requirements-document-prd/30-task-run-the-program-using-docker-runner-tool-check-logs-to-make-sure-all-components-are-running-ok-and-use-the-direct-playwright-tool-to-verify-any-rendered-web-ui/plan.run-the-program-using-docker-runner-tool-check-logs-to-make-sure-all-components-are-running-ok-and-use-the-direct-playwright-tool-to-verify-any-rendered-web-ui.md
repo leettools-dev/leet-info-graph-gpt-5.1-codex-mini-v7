@@ -1,0 +1,12 @@
+---
+task_name: run-the-program-using-docker-runner-tool-check-logs-to-make-sure-all-components-are-running-ok-and-use-the-direct-playwright-tool-to-verify-any-rendered-web-ui
+status: pending
+created_at: '2026-02-18T00:59:15Z'
+updated_at: '2026-02-18T00:59:15Z'
+---
+
+# Task: run-the-program-using-docker-runner-tool-check-logs-to-make-sure-all-components-are-running-ok-and-use-the-direct-playwright-tool-to-verify-any-rendered-web-ui
+
+## Description
+
+Run the program using docker-runner tool, check logs to make sure all components are running OK, and use the direct Playwright tool to verify any rendered web UI.
